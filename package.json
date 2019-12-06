@@ -1,0 +1,29 @@
+{
+  "name": "todo-api",
+  "version": "1.0.0",
+  "description": "A Web API for TODO's",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon --exec babel-node src/app.js"
+  },
+  "keywords": [
+    "webapi",
+    "demo",
+    "learning"
+  ],
+  "author": "Eric D. Gómez",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/preset-env": "^7.6.3",
+    "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "install": "^0.13.0",
+    "sqlite3": "^4.1.0"
+  }
+}
